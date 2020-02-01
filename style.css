@@ -1,0 +1,7 @@
+.category {
+  display: flex;
+  max-width: 100%;
+  border: 5px solid green;
+  padding: 50px;
+  margin: 20px;
+}
