@@ -1,6 +1,6 @@
 * {
-  border: 0.5px solid green;
   
+  background-color: darkgreen;
 }
 body{
   height:auto;
@@ -8,9 +8,10 @@ body{
   
 }
 h1 {
-  color: #b48608;
+  color: #dfa912;
+  background-color: darkgreen;
   font-family: 'Righteous', cursive;
-  font-size: 36px;
+  font-size: 45px;
   font-weight: 400;
   line-height: 44px;
   margin: 0 0 12px;
@@ -18,10 +19,11 @@ h1 {
 }
 form {
     text-align: center;
+    font-family: 'Righteous';
 }
 
 .newImage{
-  border:solid red;
+  
   display: block;
   margin: auto;
   width: 200px;
@@ -45,12 +47,13 @@ h2 {
 }
 p {
   text-align: center;
+  font-family: 'Righteous';
 }
 
 @keyframes example {
-  0%   {border:red 3px; left:0px; top:0px;}
-  25%  {border:yellow 3px; left:100px; top:0px;}
-  50%  {border:blue 3px; left:-100px; top:0px;}
-  75%  {border:green 3px; left:0px; top:0px;}
-  100% {border:red 3px; left:0px; top:0px;}
+  0%   {border: 33px; left:0px; top:0px;}
+  25%  {border: 33px; left:100px; top:0px;}
+  50%  {border: 33px; left:-100px; top:0px;}
+  75%  {border: 33px; left:0px; top:0px;}
+  100% {border: 33px; left:0px; top:0px;}
 }

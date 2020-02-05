@@ -26,21 +26,21 @@ $(() => {
         .append(`<h2>${name}</h2>`)
         .append(final_image)
         .append(
-          "<p>Strength : "+strength+
-            "<br /> Intelligence : " +intel+
-            "<br /> Speed: " +speed+
-            "<br /> Combat: " +combat+
-            "<br /> Power: " +power+"<br /></p>"
+          "<p>Strength : " +
+            strength +
+            "<br /> Intelligence : " +
+            intel +
+            "<br /> Speed: " +
+            speed +
+            "<br /> Combat: " +
+            combat +
+            "<br /> Power: " +
+            power +
+            "<br /></p>"
         );
-
-      // .append("Combat: " + combat + "<br />")
-      // .append("Power: " + power + "<br />");
-
-      // $("<div>").addClass("name").append(`<h2>${name}</h2>`);
-      // console.log("Name : " + data.results[0].name);
-      // console.log("Name : " + data.results[0]);
     });
   });
+
 });
 // const nancyTest = () => {
 //   let $image = $("<div>").addClass("image");
