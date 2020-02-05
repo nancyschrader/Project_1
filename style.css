@@ -1,5 +1,11 @@
 * {
   border: 0.5px solid green;
+  
+}
+body{
+  height:auto;
+  border:solid orange;
+  
 }
 h1 {
   color: #b48608;
@@ -12,4 +18,39 @@ h1 {
 }
 form {
     text-align: center;
+}
+
+.newImage{
+  border:solid red;
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+
+  /* height:50%;
+  width:300px;
+  margin:auto;
+  display: block; */
+
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+  font-family: 'Bangers';
+  font-size: 50px;
+}
+p {
+  text-align: center;
+}
+
+@keyframes example {
+  0%   {border:red 3px; left:0px; top:0px;}
+  25%  {border:yellow 3px; left:100px; top:0px;}
+  50%  {border:blue 3px; left:-100px; top:0px;}
+  75%  {border:green 3px; left:0px; top:0px;}
+  100% {border:red 3px; left:0px; top:0px;}
 }
