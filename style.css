@@ -4,7 +4,7 @@
 }
 body{
   height:auto;
-  border:solid orange;
+  
   
 }
 h1 {
@@ -20,6 +20,7 @@ h1 {
 form {
     text-align: center;
     font-family: 'Righteous';
+    
 }
 
 .newImage{
@@ -32,10 +33,6 @@ form {
   animation-name: example;
   animation-duration: 6s;
 
-  /* height:50%;
-  width:300px;
-  margin:auto;
-  display: block; */
 
 }
 
@@ -44,6 +41,7 @@ h2 {
   margin: auto;
   font-family: 'Bangers';
   font-size: 50px;
+  padding-top: 25px;
 }
 p {
   text-align: center;
@@ -56,4 +54,7 @@ p {
   50%  {border: 33px; left:-100px; top:0px;}
   75%  {border: 33px; left:0px; top:0px;}
   100% {border: 33px; left:0px; top:0px;}
+}
+input {
+  background-color: white;
 }
